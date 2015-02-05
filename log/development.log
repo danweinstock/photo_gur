@@ -2583,3 +2583,359 @@ Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 
 
 
 Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-03 17:54:08 -0500
+
+
+Started GET "/" for ::1 at 2015-02-05 17:10:33 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 47ms
+
+NameError (uninitialized constant DESC”):
+  app/models/picture.rb:3:in `block in <class:Picture>'
+  app/models/picture.rb:4:in `block in <class:Picture>'
+  app/controllers/pictures_controller.rb:4:in `index'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.8ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (216.9ms)
+
+
+Started GET "/" for ::1 at 2015-02-05 17:14:24 -0500
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+NameError (undefined local variable or method `newest_first' for #<Class:0x007ff7d5be3050>):
+  app/models/picture.rb:4:in `block in <class:Picture>'
+  app/controllers/pictures_controller.rb:4:in `index'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.2ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (158.8ms)
+
+
+Started GET "/" for ::1 at 2015-02-05 17:14:37 -0500
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `most_recent_five' for #<Class:0x007ff7d5cd0300>):
+  app/controllers/pictures_controller.rb:4:in `index'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (175.1ms)
+
+
+Started GET "/" for ::1 at 2015-02-05 17:14:50 -0500
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+NameError (undefined local variable or method `newest_first' for #<Class:0x007ff7d72a3da8>):
+  app/models/picture.rb:4:in `block in <class:Picture>'
+  app/controllers/pictures_controller.rb:4:in `index'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (10.0ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (163.3ms)
+
+
+Started GET "/" for ::1 at 2015-02-05 17:16:05 -0500
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `most_recent_five' for #<Class:0x007ff7d6ecbeb0>):
+  app/controllers/pictures_controller.rb:4:in `index'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (164.3ms)
+
+
+Started GET "/" for ::1 at 2015-02-05 17:16:24 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 98ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    2: <%= link_to "New Picture", "/pictures/new" %> -->
+    3: <h1>Most recent pictures</h1>
+    4: <ul>
+    5:   <% @most_recent_pictures.each do |picture| %>
+    6:     <li><%= picture.title %></li>
+    7:   <% end %>
+    8: </ul>
+  app/views/pictures/index.html.erb:5:in `_app_views_pictures_index_html_erb__1666154645816747714_70351209777700'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.6ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (164.8ms)
+
+
+Started GET "/" for ::1 at 2015-02-05 17:17:55 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    2: <%= link_to "New Picture", "/pictures/new" %>
+    3: <!-- <h1>Most recent pictures</h1>
+    4: <ul>
+    5:   <% @most_recent_pictures.each do |picture| %>
+    6:     <li><%= picture.title %></li>
+    7:   <% end %>
+    8: </ul> -->
+  app/views/pictures/index.html.erb:5:in `_app_views_pictures_index_html_erb__1666154645816747714_70351209152840'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.5ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (162.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-05 17:18:59 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    2: <%= link_to "New Picture", "/pictures/new" %>
+    3: <!-- <h1>Most recent pictures</h1>
+    4: <ul>
+    5:   <% @most_recent_pictures.each do |picture| %>
+    6:     <li><%= picture.title %></li>
+    7:   <% end %>
+    8: </ul> -->
+  app/views/pictures/index.html.erb:5:in `_app_views_pictures_index_html_erb__1666154645816747714_70351197314060'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (169.4ms)
+
+
+Started GET "/" for ::1 at 2015-02-05 17:19:17 -0500
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.7ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 892ms (Views: 890.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-05 17:19:18 -0500
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-05 17:19:18 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-05 17:19:18 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-05 17:19:18 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-05 17:19:18 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-05 17:19:18 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-05 17:19:18 -0500
+
+
+Started GET "/" for ::1 at 2015-02-05 17:34:03 -0500
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 8ms
+
+NameError (uninitialized constant DESC”):
+  app/models/picture.rb:3:in `block in <class:Picture>'
+  app/models/picture.rb:4:in `block in <class:Picture>'
+  app/controllers/pictures_controller.rb:4:in `index'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.1ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.9ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (202.6ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-05 17:35:30 -0500
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant DESC”):
+  app/models/picture.rb:3:in `block in <class:Picture>'
+  app/models/picture.rb:4:in `block in <class:Picture>'
+  app/controllers/pictures_controller.rb:4:in `index'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.3ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (166.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2015-02-05 17:35:38 -0500
+Processing by PicturesController#new as HTML
+  Rendered pictures/new.html.erb within layouts/application (169.5ms)
+Completed 200 OK in 267ms (Views: 258.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-05 17:35:38 -0500
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-05 17:35:38 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-05 17:35:38 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-05 17:35:38 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-05 17:35:38 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-05 17:35:38 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-05 17:35:38 -0500
+
+
+Started GET "/pictures" for ::1 at 2015-02-05 17:35:40 -0500
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant DESC”):
+  app/models/picture.rb:3:in `block in <class:Picture>'
+  app/models/picture.rb:4:in `block in <class:Picture>'
+  app/controllers/pictures_controller.rb:4:in `index'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.5ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (163.7ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-05 17:35:41 -0500
+Processing by PicturesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant DESC”):
+  app/models/picture.rb:3:in `block in <class:Picture>'
+  app/models/picture.rb:4:in `block in <class:Picture>'
+  app/controllers/pictures_controller.rb:4:in `index'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (12.0ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (170.3ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-05 17:41:43 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 123ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: <h1>Most recent pictures (<%= @most_recent_pictures.length %>)</h1>
+    2: <%= link_to "New Picture", "/pictures/new" %>
+    3: 
+    4: <% @most_recent_pictures.each do |picture| %>
+  app/views/pictures/index.html.erb:1:in `_app_views_pictures_index_html_erb__1666154645816747714_70351195932540'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (13.0ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.1ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (163.6ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-05 17:42:37 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: 
+    2: <%= link_to "New Picture", "/pictures/new" %>
+    3: 
+    4: <% @most_recent_pictures.each do |picture| %>
+    5:  	<p><%= picture.title %>,  <%= picture.artist %></p>
+    6:  	<img src="<%= picture.url %>">
+    7:  	<% end %>
+  app/views/pictures/index.html.erb:4:in `_app_views_pictures_index_html_erb__1666154645816747714_70351196881520'
+
+
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (14.3ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /Users/neelylerman/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (171.6ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-05 17:43:04 -0500
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.5ms)[0m  [1mSELECT "pictures".* FROM "pictures"  ORDER BY created_at DESC[0m
+  Rendered pictures/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 84ms (Views: 82.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-05 17:43:04 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-05 17:43:04 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-05 17:43:04 -0500
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-05 17:43:04 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-05 17:43:04 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-05 17:43:04 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-05 17:43:04 -0500
+
+
+Started GET "/pictures/new" for ::1 at 2015-02-05 17:43:07 -0500
+Processing by PicturesController#new as HTML
+  Rendered pictures/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-05 17:43:08 -0500
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.3ms)[0m  SELECT "pictures".* FROM "pictures"  ORDER BY created_at DESC
+  Rendered pictures/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 87ms (Views: 85.1ms | ActiveRecord: 0.3ms)
